@@ -18,8 +18,6 @@ This project is designed to support the procurement process for server racks in 
    - [Step 3: Validation](#step-3-validation)
 5. [Final Outputs](#final-outputs)
 6. [Instructions for Use](#instructions-for-use)
-7. [Running the Notebook](#running-the-notebook)
-
 
 ## Project Structure
 
@@ -82,16 +80,11 @@ The final outputs, included as the last cells in the Jupyter notebook, are:
 3. **Total Cost (First Quote)**: Total cost per program per vendor based on the first received quote.
 4. **Best-in-Class Total Cost**: Lowest possible cost for each program, regardless of vendor.
 
-## Running the Notebook
-
-1. **Requirements**: Ensure you have Polars, Pandas, and other necessary libraries installed.
-2. **Execution**: Run the Jupyter notebook in order, verifying that each cell executes without error. 
-3. **Submission**: Submit the populated notebook with all outputs visible, as our TAs will not execute the code.
-
 ## Instructions for Use
 Ensure Polars and Pandas libraries are installed in your Python environment. You can install them using:
 ```bash
 pip install polars pandas
 ```
+Ensure you have Polars, Pandas, and other necessary libraries installed.
 
 
